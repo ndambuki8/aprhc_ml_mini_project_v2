@@ -8,13 +8,3 @@ import os
 
 
 # Setup logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname))s -%(message)s')
-logger = logging.getLogger(__name__)
-
-class DataProcessor:
-    """Handle data ingestion and transformation operations"""
-    
-    def __init__(self):
-        self.raw_data = None
-        self.processed_data = None 
-        
